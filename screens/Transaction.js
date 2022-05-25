@@ -8,7 +8,7 @@ export default class TransactionScreen extends Component
   constructor(props) {
     super(props);
     this.state = {
-      domState: "normal",
+      domState: "normal", 
       hasCameraPermissions: false,
       scanned: false,
       scannedData: ""
